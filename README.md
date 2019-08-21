@@ -1,11 +1,13 @@
 <pre>
-Python code which combines images files into a single pdf. 
-The images files are obtained from a directory which is specfied by the user, when running the code.
+Repository description:
+      A python program that automatically combines multiple image files into a single pdf;
+        >> automatically placed in order (page number of pdf) by chronological order of image filenames.
+      The images files are obtained from a directory which is specfied by the user, when running the code.
 
-The required modules for the code are "img2pdf" and "os"
+The required modules for the python code are "img2pdf", "os" and "pyinstaller" if intending to convert
+the main python code to .exe with pyinstaller.
 
-
-In this repository:
+Files this repository:
 => "write_images_to_pdf.py" : main python code, which is formatted with intention of 
                               being converted to .exe (pyinstaller).                                                
                               i.e - Code has user interface (text).
@@ -28,5 +30,9 @@ An additional file was intended to added to the repository;
                     
                    As noted, earlier in the readme, pyinstaller is the module that I use for converting the 
                    script to an exe file.
-                             
+ 
+ A very quick tutorial for using the pyinstaller module:
+  https://datatofish.com/executable-pyinstaller/
+        
+        
 <pre />
