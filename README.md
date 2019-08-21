@@ -3,6 +3,7 @@ The images files are obtained from a directory which is specfied by the user, wh
 <br />
 The required modules for the code are "img2pdf" and "os"<br />
 <br />
+<pre>
 In this repository:<br />
 => "write_images_to_pdf.py" : main python code, which is formatted with intention of being converted to .exe [pyintaller].                                                i.e - Code has user interface (text).<br /><br />
 => "write_images_to_pdf[Bare_minimum_code].py" :  bare essential code used to convert images to single pdf .<br />                                                                                [ same as main code but without text user interface] .<br /><br />
@@ -18,4 +19,4 @@ Know bug:<br />
      most .png files seem to cause error with function "img2pdf.convert"<br />
      ,seemingly, due to alpha channel of png (a work around is yet to be made)<br />
 <br />
-
+<pre />
