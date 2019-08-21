@@ -10,7 +10,9 @@ In this repository:
                               being converted to .exe (pyinstaller).                                                
                               i.e - Code has user interface (text).
                               
-=> "write_images_to_pdf[Bare_minimum_code].py" :  bare essential code used to convert images to single pdf .                                                                                ( same as main code but without text user interface) .
+=> "write_images_to_pdf[Bare_minimum_code].py" :  bare essential code used to convert images to single pdf .
+                                                    ( same as main code but without text user interface and 
+                                                       try/except error handling)
 
 => "write_image_to_pdf.exe" : 'write_images_to_pdf.py' (along with dependecies) converted to standalone .exe 
                                from the use of "pyinstaller".                               
