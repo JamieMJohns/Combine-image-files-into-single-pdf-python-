@@ -18,9 +18,10 @@ In this repository:
                                from the use of "pyinstaller".                               
                                This file (the .exe) was originally made for convenience of personal usagage;
                                   >can run the code anytime without having to install/open python IDE.
-                                    {.exe as so far been tested on Windows10 64bit OS}
+                                    {.exe as has so far been tested on Windows10 64bit OS}
                                
-                              The current size of the .exe (>200mb) is due the inclusion of required module "img2pdf"; 
+                              The current size of the .exe (>200mb) is due the inclusion of required 
+                              module "img2pdf"; 
                                   >>> a workaround is yet to be made for this filesize issue.
                              
 Know bug with the code:
