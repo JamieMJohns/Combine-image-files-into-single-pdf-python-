@@ -13,19 +13,20 @@ In this repository:
 => "write_images_to_pdf[Bare_minimum_code].py" :  bare essential code used to convert images to single pdf .
                                                     ( same as main code but without text user interface and 
                                                        try/except error handling)
-
-=> "write_image_to_pdf.exe" : 'write_images_to_pdf.py' (along with dependecies) converted to standalone .exe 
-                               from the use of "pyinstaller".                               
-                               This file (the .exe) was originally made for convenience of personal usagage;
-                                  >can run the code anytime without having to install/open python IDE.
-                                    {.exe as has so far been tested on Windows10 64bit OS}
-                               
-                              The current size of the .exe (>200mb) is due the inclusion of required 
-                              module "img2pdf"; 
-                                  >>> a workaround is yet to be made for this filesize issue.
-                             
-Know bug with the code:
+Known bug with the codes (above):
      most .png files seem to cause error with function "img2pdf.convert"
      ,seemingly, due to alpha channel of png (a work around is yet to be made)
 
+An additional file was intended to added to the repository;
+        >> "write_images_to_pdf.py" converted (frozen) into a standalone .exe , along with code's dependencies, 
+                    however due the module 'img2pdf' , the resulting .exe has a file size larger than 200mb;
+                        [too large to upload to github (the limit is 25mb)]
+                    a workaround is yet to be made for reducing the filesize.
+                    
+                    The code "write_images_to_pdf.py" is exact code that I have converted to .exe for personal
+                    usage (such that the code can be run anytime without opening/installing a Python IDE).
+                    
+                   As noted, earlier in the readme, pyinstaller is the module that I use for converting the 
+                   script to an exe file.
+                             
 <pre />
